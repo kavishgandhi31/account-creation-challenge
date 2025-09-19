@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateAccount renders the create account form 1`] = `
+<div>
+  <div
+    class="min-h-screen flex items-center justify-center bg-gray-25"
+  >
+    <div
+      class="flex flex-col items-center justify-center max-w-md w-full rounded-3xl shadow-2xl bg-white"
+    >
+      <div
+        class="w-full mt-4"
+      >
+        <img
+          alt="Wealthfront Logo"
+          class="h-12 w-auto mx-auto mb-4"
+          src="test-file-stub"
+        />
+      </div>
+      <h2
+        class="font-sans-serif font-black text-3xl text-gray-900"
+      >
+        Create New Account
+      </h2>
+      <div
+        class="flex flex-col items-center justify-center max-w-md w-full mt-8 px-4"
+      >
+        <form
+          class="w-full"
+        >
+          <div>
+            <div>
+              <label
+                class="block text-sm font-small text-gray-500 mb-4"
+                for="Username"
+              >
+                Username
+              </label>
+              <input
+                class="w-full px-3 border-b-2 border-gray-300 placeholder-gray-400 focus:outline-none focus:border-blue-500 sm:text-sm"
+                id="Username"
+                name="username"
+                required=""
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="mt-4"
+          >
+            <div>
+              <label
+                class="block text-sm font-small text-gray-500 mb-4"
+                for="Password"
+              >
+                Password
+              </label>
+              <input
+                class="w-full px-3 border-b-2 border-gray-300 placeholder-gray-400 focus:outline-none focus:border-blue-500 sm:text-sm"
+                id="Password"
+                name="password"
+                required=""
+                type="password"
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            class="pb-4 w-full items-center justify-center"
+          >
+            <button
+              class="inline-block p-4 mt-4 w-full bg-[hsla(244,49%,80%,0.5)] text-white rounded-xl"
+              disabled=""
+              type="submit"
+            >
+              Create Account
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

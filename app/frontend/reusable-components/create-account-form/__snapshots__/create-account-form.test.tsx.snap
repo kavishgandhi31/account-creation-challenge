@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create Account Form renders the create account form component 1`] = `
+<div>
+  <form
+    class="w-full"
+  >
+    <div>
+      <div>
+        <label
+          class="block text-sm font-small text-gray-500 mb-4"
+          for="Username"
+        >
+          Username
+        </label>
+        <input
+          class="w-full px-3 border-b-2 border-gray-300 placeholder-gray-400 focus:outline-none focus:border-blue-500 sm:text-sm"
+          id="Username"
+          name="username"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="mt-4"
+    >
+      <div>
+        <label
+          class="block text-sm font-small text-gray-500 mb-4"
+          for="Password"
+        >
+          Password
+        </label>
+        <input
+          class="w-full px-3 border-b-2 border-gray-300 placeholder-gray-400 focus:outline-none focus:border-blue-500 sm:text-sm"
+          id="Password"
+          name="password"
+          required=""
+          type="password"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="pb-4 w-full items-center justify-center"
+    >
+      <button
+        class="inline-block p-4 mt-4 w-full bg-[hsla(244,49%,80%,0.5)] text-white rounded-xl"
+        disabled=""
+        type="submit"
+      >
+        Create Account
+      </button>
+    </div>
+  </form>
+</div>
+`;

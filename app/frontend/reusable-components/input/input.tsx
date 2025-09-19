@@ -15,8 +15,9 @@ export function Input({ onChange, label }: Props) {
   }
   return (
     <div>
-      <label className="block text-sm">{label}</label>
+      <label htmlFor={id} className="block text-sm">{label}</label>
       <input
+        type="text"
         id={id}
         className="block w-full p-2 border-4 border-solid border-slate-300"
         value={value}

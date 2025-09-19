@@ -68,6 +68,7 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.5)
       public_suffix (>= 2.0.2, < 6.0)
+    bcrypt (3.1.20)
     bindex (0.8.1)
     bootsnap (1.16.0)
       msgpack (~> 1.2)
@@ -122,6 +123,8 @@ GEM
       net-protocol
     nio4r (2.5.9)
     nokogiri (1.15.4-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.15.4-x86_64-darwin)
       racc (~> 1.4)
     pry (0.14.2)
       coderay (~> 1.1)
@@ -179,6 +182,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.6.6-arm64-darwin)
+    sqlite3 (1.6.6-x86_64-darwin)
     stimulus-rails (1.2.2)
       railties (>= 6.0.0)
     thor (1.2.2)
@@ -213,8 +217,10 @@ GEM
 PLATFORMS
   arm64-darwin-22
   arm64-darwin-23
+  x86_64-darwin-22
 
 DEPENDENCIES
+  bcrypt (~> 3.1.7)
   bootsnap (= 1.16.0)
   capybara (= 3.39.2)
   importmap-rails (= 1.2.1)
